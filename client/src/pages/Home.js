@@ -68,8 +68,10 @@ const Home = () => {
               }
             })
           );
-          console.log(filteredPosts)
+ console.log(filteredPosts)
+ console.log("hello")
           setAllPosts(filteredPosts.filter((post) => post !== null));
+          console.log(allPosts)
         }
       } catch (err) {
         alert(err);
